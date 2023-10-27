@@ -32,4 +32,4 @@ jobs:
         # Add more packages as needed
 
     - name: Execute Python Script
-      run: python today_news
+      run: python today_news.py
