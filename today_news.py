@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 
 def get_mood(text):
-    openai.api_key = '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'
+    openai.api_key = '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'
 
     response = openai.ChatCompletion.create(
         #model="gpt-3.5-turbo",
