@@ -2,7 +2,7 @@ name: Scheduled Python Package Installation and Script Execution
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # Schedule the workflow to run at 9 AM UTC time every day
+    - cron: '1 * * * *'  # Schedule the workflow to run at 9 AM UTC time every day
 
   workflow_dispatch:  # Allow the workflow to be run manually from the Actions tab
 
