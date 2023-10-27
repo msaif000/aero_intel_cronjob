@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 
 def get_mood(text):
-    openai.api_key = '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'
+    openai.api_key = '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'
 
     response = openai.ChatCompletion.create(
         #model="gpt-3.5-turbo",
@@ -26,7 +26,7 @@ def get_mood(text):
     return response.choices[0]['message']['content']
 
 def summarize_text(text, title):
-    openai.api_key = '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'
+    openai.api_key = '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'
 
     response = openai.ChatCompletion.create(
         #model="gpt-3.5-turbo",
